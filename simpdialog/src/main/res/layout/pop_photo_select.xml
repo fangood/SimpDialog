@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_popup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding_all_left_right"
+    android:paddingLeft="@dimen/padding_all_left_right"
+    android:paddingRight="@dimen/padding_all_left_right">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radius_5_rect_white"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_photo_top"
+            style="@style/base_dg_btn_text"
+            android:layout_width="match_parent"
+            android:background="@drawable/selector_radius_5_top"
+            android:text="@string/bottom_pop_top" />
+
+        <View style="@style/div_horizontal_1px" />
+
+        <TextView
+            android:id="@+id/tv_photo_middle"
+            style="@style/base_dg_btn_text"
+            android:layout_width="match_parent"
+            android:background="@drawable/selector_radius_5_bottom"
+            android:text="@string/bottom_pop_middle" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_photo_bottom"
+        style="@style/base_dg_btn_text"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/selector_radius_5_rect"
+        android:text="@string/base_ac_cancel" />
+
+
+</LinearLayout>
