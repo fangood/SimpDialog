@@ -9,9 +9,9 @@
 
 -----------------------------------------
 
-Uses:
+##Uses:
 
-Step 1. Add it in your root build.gradle at the end of repositories:
+###Step 1. Add it in your root build.gradle at the end of repositories:
 
 	allprojects {
 		repositories {
@@ -19,16 +19,24 @@ Step 1. Add it in your root build.gradle at the end of repositories:
 			maven { url 'https://jitpack.io' }
 		}
 	}Copy
-Step 2. Add the dependency
+### Step 2. Add the dependency
 
 	dependencies {
 	        implementation 'com.github.fangood:SimpDialog:Tag'
 	}
 
-Preview:
-https://github.com/fangood/SimpDialog/blob/master/images/1.jpg
-https://github.com/fangood/SimpDialog/blob/master/images/2.jpg
-https://github.com/fangood/SimpDialog/blob/master/images/3.jpg
-https://github.com/fangood/SimpDialog/blob/master/images/4.jpg
-https://github.com/fangood/SimpDialog/blob/master/images/5.jpg
-https://github.com/fangood/SimpDialog/blob/master/images/6.jpg
+## Preview:
+
+
+![1](https://github.com/fangood/SimpDialog/blob/master/images/1.jpg "README.md")
+
+![2](https://github.com/fangood/SimpDialog/blob/master/images/2.jpg "README.md")
+
+![3](https://github.com/fangood/SimpDialog/blob/master/images/3.jpg "README.md")
+
+![4](https://github.com/fangood/SimpDialog/blob/master/images/4.jpg "README.md")
+
+![5](https://github.com/fangood/SimpDialog/blob/master/images/5.jpg "README.md")
+
+![6](https://github.com/fangood/SimpDialog/blob/master/images/6.jpg "README.md")
+
