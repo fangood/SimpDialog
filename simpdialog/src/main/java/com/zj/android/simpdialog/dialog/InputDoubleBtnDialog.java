@@ -11,8 +11,6 @@ import android.widget.LinearLayout;
 import com.zj.android.simpdialog.R;
 import com.zj.android.simpdialog.listener.DialogDoubleBtnClickListener;
 
-import java.util.ArrayList;
-
 
 /**
  * 底部两个按钮，中间一行可以输入文字
@@ -31,7 +29,6 @@ public class InputDoubleBtnDialog extends BaseDialog {
 
         public Builder(Activity context, LayoutInflater mLayoutInflater) {
             super(context, mLayoutInflater);
-            ArrayList<String> arr = new ArrayList<String>();
         }
 
         public Builder setTextHint(String textHint) {
